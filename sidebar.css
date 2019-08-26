@@ -41,15 +41,9 @@
 	background-color: #004415;
 	}
 	
-.dblue {
+.dgreen {
 	background-color:#003319 !important;
 	}	
-	
-.dashboard{
-	display: flex;
-	flex-direction: column;
-	justify-content:space-evenly;
-	}
 	
 .separator{
 	border-top: 1px solid white;	
