@@ -1,0 +1,56 @@
+.main{
+	display: flex !important;
+	}
+
+#sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+	color: #FFFFFF
+	}
+
+.sidebar{
+	height: 100%;
+	width: 180px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	padding-top: 20px;
+	background-color: #001933;
+	}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #FFFFFF;
+  display: block;
+  border: 1px solid black;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+  border: 1px solid black;
+}
+
+.list-group-mine .list-group-item{
+	background-color: #003319;
+	}
+	
+.list-group-mine .list-group-item:hover{
+	background-color: #004415;
+	}
+	
+.dblue {
+	background-color:#003319 !important;
+	}	
+	
+.dashboard{
+	display: flex;
+	flex-direction: column;
+	justify-content:space-evenly;
+	}
+	
+.separator{
+	border-top: 1px solid white;	
+	}
