@@ -1,77 +1,303 @@
-<!DOCTYPE:html>
-	<html>
-		<head>
-			<meta charset="utf-8">
-			<link rel="stylesheet" href="sidebar.css">
-			<link rel="stylesheet" href="css/bootstrap.min.css">
-		</head>
-		<body>
-			<div class="main">
-				<div class="dgreen border-right sidebar" id="sidebar-wrapper">
-					<div class="sidebar-heading text-center"><h1> ESU </h1> </div>
-					<div class="list-group-mine list-group-flush ">
-						<a href="#" class="list-group-item list-group-item-action"><h1>00:00</h1></a>
-						<a href="#" class="list-group-item list-group-item-action">Perfil</a>
-						<a href="#" class="list-group-item list-group-item-action">Amigos</a>
-						<a href="#" class="list-group-item list-group-item-action">Actividades</a>
-					</div>
-				</div>
-				<div class="container">
-					<img class="img-fluid d-block mx-auto mb-5" src=https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png style="width:50px;height:50px;border-radius:50%;margin-top: 10px">
-					 <STYLE type="text/css">
-  						H1 {text-align: center}
-					 </STYLE>
-            		<h1>User Name</h1>
-            		<hr class="star-light">
-        		</div>
-			</div>
-			<div class="card mb-3" style="max-width:750px; margin-left: auto;margin-right: auto">
-					<div class="row no-gutters">
-						<div class="card-body d-flex justify-content-around align-items-md-end">
-							<h3 style="margin-right:20px "> 00:00 </h3>
-								<input class="form-control" type="text" placeholder="name">
-								<input class="form-control" type="text" placeholder="type">
-								<input class="form-control" type="text" placeholder="decription">
-								<button type="button" class="d-flex align-self-center btn btn-danger btn-md">Start!</button>
-						</div>
-						<button type="button" class="d-flex align-self-auto btn btn-danger btn-primary" style="margin-left: auto; margin-right: auto"> Finish! </button>
-					</div>
-			</div>
-			<div class="table" style="margin-left: 400px">
-				<table border="2">
-					<tr>
-						<th type="button">Lunes</th>
-						<th type="button">Martes</th>
-						<th type="button">Miercoles</th>
-						<th type="button">Jueves</th>
-						<th type="button">Viernes</th>
-						<th type="button">Sabado</th>
-						<th type="button">Domingo</th>
-					</tr>
-					<tr>
-						<td bgcolor="#a52a2a" type="button">Estudio</td>
-						<td bgcolor="#deb887" type="button">Correr</td>
-					</tr>
-				</table>
-			</div>
-			<div class = "container">
-					<div class="card mb-3" style="max-width:750px;margin-left: auto;margin-right: auto">
-						<div class="row no-gutters">
-							<div class="card-body d-flex justify-content-around align-items-md-end">
-								<img src=https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png style="width:50px;height:50px;border-radius:50%;">
-								<p> Lorem Ipsum</p>
-								<p>Estudio {Promedio: 2 - Desviacion : 0.5}</p>
-							</div>
-						</div>
-					</div>
-					<div class="card mb-3" style="max-width:750px;margin-right: auto;margin-left: auto">
-						<div class="row no-gutters">
-							<div class="card-body d-flex justify-content-around align-items-md-end">
-								<img src=https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png style="width:50px;height:50px;border-radius:50%;">
-								<p> Juan Perez</p>
-							</div>
-						</div>
-					</div>
-			</div>
-		</body>
-	</html>
+<!DOCTYPE html>
+<html xmlns:font-weight="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Bienvenido &mdash; E.S.U.</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<style type="text/css">
+    .center {
+        margin: auto;
+        width: 50%;
+        padding: 20px;
+    }
+
+
+</style>
+
+<!--Sidebar + Mini Profile-->
+
+<div class="main">
+    <div class="dgreen border-right sidebar" id="sidebar-wrapper">
+        <div class="sidebar-heading text-center"><h1> ESU </h1></div>
+        <div class="list-group-mine list-group-flush ">
+            <a href="#" class="list-group-item list-group-item-action"><h1 style="text-align: center">00:00</h1></a>
+            <a href="#" class="list-group-item list-group-item-action" style="text-align: center">Perfil</a>
+            <a href="#" class="list-group-item list-group-item-action" style="text-align: center">Amigos</a>
+            <a href="#" class="list-group-item list-group-item-action" style="text-align: center">Actividades</a>
+            <a href="#" class="list-group-item list-group-item-action"
+               style="text-align: center; position: absolute; bottom: 0;">Configuración</a>
+        </div>
+    </div>
+    <div class="container">
+        <p>
+            <img class="img-fluid d-block mx-auto mb-5"
+                 src=images/foto_arcangel.jpg
+                 style="width:150px;height:150px;border: solid lightslategrey 2px;border-radius:50%;margin-top: 10px;">
+        <h1 style="text-align: center">Papi Arca</h1>
+        <h5 style="text-align: center">La Marashhh</h5>
+        <h6 style="text-align: center">arcangel@marashhh.pr</h6>
+        </p>
+
+
+    </div>
+</div>
+
+
+<!--Content-->
+<hr class="star-light">
+
+
+<!--New Activity-->
+<div class="container" style="border: 3px solid forestgreen;border-radius: 25px;">
+    <div class="align-content-center">
+        <h2 style="padding: 10px">Comienza!</h2>
+    </div>
+
+    <div class="card mb-3" style="margin: auto;max-width: 90%;padding: 10px;">
+        <div style="position: relative;margin: 2% auto 0;background: orangered;padding: 20px;border:solid grey;border-radius:80%;">
+            <h3 style="color: white">00:00</h3>
+        </div>
+        <div class="row no-gutters">
+            <div class="card-body d-flex justify-content-around align-items-md-end">
+                <div class="container-fluid">
+                    <span class="inline" style="display: block;margin: auto 0">
+                        <input class="form-control" type="text" style="margin: 1%;" placeholder="name">
+                        <input class="form-control" type="text" style="margin: 1%;" placeholder="type">
+                    </span>
+                    <input class="form-control" type="text" style="margin: 1%;" placeholder="decription">
+
+                    <div id="buttons" class="container">
+                        <button type="button" class="d-flex align-self-center btn btn-success btn-md btn-circle"
+                                style="display: inline;margin: 2% auto 0; padding: 5%">Start!
+                        </button>
+                        <button type="button" class="d-flex align-self-center btn btn-danger btn-md btn-circle"
+                                style="display: inline;margin: 2% auto 0; padding: 5%"> Finish!
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+</div>
+
+
+<!--Activities-->
+<div class="container-fluid bg-transparent" style="height: 50px"><br></div>
+
+<div class="container" style="border: 3px solid forestgreen;border-radius: 25px;">
+    <div class="align-content-center">
+        <h2 style="padding: 10px">Tus Actividades</h2>
+    </div>
+    <div class="card mb-3" style="margin: auto;max-width: 90%;padding: 10px;">
+        <div class="table" style="border-radius: 25px;">
+            <div style="text-align: center; padding: 0.5%;">
+                <p style="font-size: x-large"><strong>Semana 10</strong></p>
+            </div>
+
+            <table class="center" border="2" style="border: solid black 2px;border-radius:6px;-moz-border-radius:6px;">
+                <thead style="border: solid black 2px;">
+                <tr style="background: #7abaff; border-bottom: solid black 2px">
+                    <th scope="col" style="text-align: center">Lunes</th>
+                    <th scope="col" style="text-align: center">Martes</th>
+                    <th scope="col" style="text-align: center">Miercoles</th>
+                    <th scope="col" style="text-align: center">Jueves</th>
+                    <th scope="col" style="text-align: center">Viernes</th>
+                    <th scope="col" style="text-align: center">Sabado</th>
+                    <th scope="col" style="text-align: center">Domingo</th>
+                </tr>
+                </thead>
+                <tbody style="border: solid black 2px;">
+                <tr>
+                    <td style="border: 1px solid black; background: lightcoral; text-align: center"><a href="#"
+                                                                                                       style="color: black">Estudio
+                        Algoritmos</a></td>
+                    <td style="border: 1px solid black; background: lightyellow; text-align: center"><a href="#"
+                                                                                                        style="color: black">Correr</a>
+                    </td>
+                    <td style="border: 1px solid black; background: lightsalmon; text-align: center"><a href="#"
+                                                                                                        style="color: black">Leer</a>
+                    </td>
+                    <td style="border: 1px solid black; background: lightyellow; text-align: center"><a href="#"
+                                                                                                        style="color: black">Gimnasio</a>
+                    </td>
+                    <td style="border: 1px solid black; background: lightcoral; text-align: center"><a href="#"
+                                                                                                       style="color: black">Estudio
+                        Discretas</a></td>
+                    <td style="border: 1px solid black; background: lightcoral; text-align: center"><a href="#"
+                                                                                                       style="color: black">Estudio
+                        Proba</a></td>
+                    <td style="border: 1px solid black; background: indianred; text-align: center"><a href="#"
+                                                                                                      style="color: black">Tarea
+                        Discretas</a></td>
+
+                </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!--Next - Previous-->
+    <div style="text-align: center;padding: 0.5%">
+        <a href="#" class="previous round" style="font-size: 20px">&#8249;</a>
+        <span style="font-weight: bold"> Semana 10 </span>
+        <a href="#" class="next round" style="font-size: 20px">&#8250;</a>
+    </div>
+    <div style="text-align: center;padding: 0.5%">
+        <a href="#" class="previous round" style="font-size: 20px; font-size: medium;font-weight: bold">&#8249;</a>
+        <span style="font-weight: bold"> Octubre </span>
+        <a href="#" class="next round" style="font-size: 20px; font-size: medium; font-weight: bold">&#8250;</a>
+    </div>
+</div>
+
+
+<!--Friends-->
+<div class="container-fluid bg-transparent" style="height: 50px"><br></div>
+
+<div class="container" style="border: 3px solid forestgreen; border-radius: 25px; margin-bottom: 15px">
+    <div class="align-content-center">
+        <h2 style="padding: 10px">Resumen</h2>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row" style="align-content: center">
+            <div class="col">
+                <div class="card mb-3" style="background: lightcoral; border: solid 1px">
+                    <p style="font-weight: bold; text-align: center; margin-top: 1px">Estudio</p>
+                    <p style="text-align: center;">6 horas en esta semana</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-3" style="background: lightsalmon; border: solid 1px">
+                    <p style="font-weight: bold; text-align: center; margin-top: 1px">Calidad de Vida</p>
+                    <p style="text-align: center;">4 horas en esta semana</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-3" style="background: lightyellow; border: solid 1px">
+                    <p style="font-weight: bold; text-align: center; margin-top: 1px">Deporte</p>
+                    <p style="text-align: center;">4 horas en esta semana</p>
+                </div>
+
+            </div>
+            <div class="col">
+                <div class="card mb-3" style="background: indianred; border: solid 1px">
+                    <p style="font-weight: bold; text-align: center; margin-top: 1px">Tareas</p>
+                    <p style="text-align: center;">8 horas en esta semana</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Amiwos-->
+    <div class="container-fluid bg-transparent" style="height: 25px"><br></div>
+    <hr class="star-light">
+    <div class="container-fluid bg-transparent" style="height: 25px"><br></div>
+
+    <div class="align-content-center">
+        <h2 style="padding: 10px">Tus Amigos</h2>
+    </div>
+    <div class="card mb-3" style="max-width:95%;margin-left: auto;margin-right: auto;padding: 1px">
+        <div class="row no-gutters">
+            <div class="card-body d-flex justify-content-around align-items-md-end">
+
+                <div class="m-auto">
+                    <img src=images/foto_myers.jpg
+                         style="width:75px;height:75px;border-radius:50%;border: solid lightslategrey 2px; align-self: center">
+                    <p style="text-align: center"><strong>Bryan Myers</strong></p>
+                </div>
+                <div class="container-fluid">
+                    <div class="row" style="align-content: center">
+                        <div class="col">
+                            <div class="card mb-3" style="background: lightsalmon; border: solid 1px">
+                                <p style="font-weight: bold; text-align: center; margin-top: 1px">Calidad de Vida</p>
+                                <p style="text-align: center;">10 horas en esta semana</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card mb-3" style="background: lightyellow; border: solid 1px">
+                                <p style="font-weight: bold; text-align: center; margin-top: 1px">Deporte</p>
+                                <p style="text-align: center;">8 horas en esta semana</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card mb-3" style="max-width:95%;margin-right: auto;margin-left: auto;padding: 1px">
+        <div class="row no-gutters">
+            <div class="card-body d-flex justify-content-around align-items-md-end">
+                <div class="m-auto">
+                    <img src=images/foto_bunny.png
+                         style="width:75px;height:75px;border-radius:50%;border: solid lightslategrey 2px;">
+                    <p style="text-align: center"><strong>Bad Bunny</strong></p>
+                </div>
+                <div class="container-fluid">
+                    <div class="row" style="align-content: center">
+                        <div class="col">
+                            <div class="card mb-3" style="background: lightcoral; border: solid 1px">
+                                <p style="font-weight: bold; text-align: center; margin-top: 1px">Estudio</p>
+                                <p style="text-align: center;">8 horas en esta semana</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card mb-3" style="background: lightsalmon; border: solid 1px">
+                                <p style="font-weight: bold; text-align: center; margin-top: 1px">Calidad de
+                                    Vida</p>
+                                <p style="text-align: center;">9 horas en esta semana</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card mb-3" style="max-width:95%;margin-right: auto;margin-left: auto;padding: 1px">
+        <div class="row no-gutters">
+            <div class="card-body d-flex justify-content-around align-items-md-end">
+                <div class="m-auto">
+                    <img src=images/foto_ozuna.jpg
+                         style="width:75px;height:75px;border-radius:50%;border: solid lightslategrey 2px;">
+                    <p style="text-align: center"><strong>Ozuna</strong></p>
+                </div>
+                <div class="container-fluid">
+                    <div class="row" style="align-content: center">
+                        <div class="col">
+                            <div class="card mb-3" style="background: lightsalmon; border: solid 1px">
+                                <p style="font-weight: bold; text-align: center; margin-top: 1px">Calidad de
+                                    Vida</p>
+                                <p style="text-align: center;">7 horas en esta semana</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card mb-3" style="background: lightyellow; border: solid 1px">
+                                <p style="font-weight: bold; text-align: center; margin-top: 1px">Deporte</p>
+                                <p style="text-align: center;">5 horas en esta semana</p>
+                            </div>
+
+                        </div>
+                        <div class="col">
+                            <div class="card mb-3" style="background: indianred; border: solid 1px">
+                                <p style="font-weight: bold; text-align: center; margin-top: 1px">Tareas</p>
+                                <p style="text-align: center;">6 horas en esta semana</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
