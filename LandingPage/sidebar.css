@@ -1,6 +1,14 @@
-.main{
-	display: flex !important;
+.dashboard{
+	display: flex;
+	height: 100%;
+	width: 86% ;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 14%;
+	padding-top: 20px;
 	}
+
 
 #sidebar-wrapper .sidebar-heading {
     padding: 0.875rem 1.25rem;
@@ -8,16 +16,18 @@
 	color: #FFFFFF
 	}
 
+
 .sidebar{
 	height: 100%;
-	width: 180px;
+	width: 14%;
 	position: fixed;
-	z-index: 1;
+	z-index: 2;
 	top: 0;
 	left: 0;
 	padding-top: 20px;
 	background-color: #001933;
 	}
+	
 
 .sidebar a {
   padding: 6px 8px 6px 16px;
